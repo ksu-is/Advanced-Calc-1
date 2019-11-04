@@ -30,7 +30,7 @@ Tasks for 2 Week Sprint:
 - [x] Add ideas to online document
 - [x] Create team on GitHub
 - [x] Complete README.md
-- [ ] Begin coding calculator project
+- [X] Begin coding calculator project
 - [ ] Test project after completion
 - [ ] Fix errors if present
 - [ ] Retest code
