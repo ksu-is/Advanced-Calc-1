@@ -11,6 +11,7 @@ Quadratic Formula
 Molarity
 Conversion from Celsius to Fahrenheit
 Conversion from pounds to kilograms
+
 Sources:
 https://github.com/Warrioravi/GUI-scientific-calculator-using-python/blob/master/calculator.py
 https://github.com/Tookmund/graphcalc/blob/master/src/graph.py
