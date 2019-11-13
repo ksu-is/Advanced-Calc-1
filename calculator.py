@@ -1,6 +1,9 @@
 from tkinter import *
-
-
+from math import sqrt as sqr
+from math import sin
+from math import cos
+from math import tan
+from math import caret as ^
 class calculate():
 
     def __init__(self):
@@ -14,6 +17,26 @@ class calculate():
         self.resultwindow.focus_set()  # Sets focus on the input text area
 
         # Buttons
+        self.button1 = Button(self.root, text="P/T", width=3, command=lambda:self.ins('()+()=()'))
+        self.button1.grid(row=1,column=6, padx=3, pady=3)
+        self.button1.config(font=("Arial", 18))
+
+        self.button1 = Button(self.root, text="Graph", width=5, command=lambda:self.ins('graph'))
+        self.button1.grid(row=1,column=5, padx=3, pady=3)
+        self.button1.config(font=("Arial", 18))
+        
+        self.button1 = Button(self.root, text="Sin", width=3, command=lambda:self.ins('sin'))
+        self.button1.grid(row=2,column=5, padx=3, pady=3)
+        self.button1.config(font=("Arial", 18))
+
+        self.button1 = Button(self.root, text="Cos", width=3, command=lambda:self.ins('cos'))
+        self.button1.grid(row=3,column=5, padx=3, pady=3)
+        self.button1.config(font=("Arial", 18))
+
+        self.button1 = Button(self.root, text="Tan", width=3, command=lambda:self.ins('tan'))
+        self.button1.grid(row=4,column=5, padx=3, pady=3)
+        self.button1.config(font=("Arial", 18))
+
         self.button1 = Button(self.root, text="1", width=3, command=lambda:self.ins('1'))
         self.button1.grid(row=1,column=0, padx=3, pady=3)
         self.button1.config(font=("Arial", 18))
@@ -63,6 +86,10 @@ class calculate():
         self.button_close.config(font=("Arial", 18))
 
         # Operations Buttons
+
+        self.buttonplus = Button(self.root, text="^", width=3, command=lambda:self.ins('^'))
+        self.buttonplus.grid(row=5, column=0, padx=3, pady=3)
+        self.buttonplus.config(font=("Arial", 18))
 
         self.buttonplus = Button(self.root, text="+", width=3, command=lambda:self.ins('+'))
         self.buttonplus.grid(row=1, column=3, padx=3, pady=3)
