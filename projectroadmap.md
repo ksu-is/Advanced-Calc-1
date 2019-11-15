@@ -18,29 +18,24 @@
 
 - [x] Create funtion buttons on calc - Zach - DONE
 - [x] Test function buttons - Zach - DONE
-- [ ] Implement pythagorean theorem funtion - Zach
-- [ ] Test pythagorean theorem funtion - Zach
-- [ ] Create graphing funtion - Adam
-- [ ] Test graphing function - Adam
-- [ ] Test calculator progress - Adam
+- [ ] Implement pythagorean theorem funtion and decide best way to implement - Zach
+- [x] Create quadratic formula function and decide whether to implement - Adam - DONE
+- [ ] Create graphing funtion and decide whether to implement- Adam
+- [ ] Evaluate calculator progress decide on following steps - Adam
+
 
 ## Week Two
 
-- [ ] Create quadratic formula - Zach
-- [ ] Implement quadratic funtion - Zach
-- [ ] Create molarity funtion - Adam
-- [ ] Implement molarity function - Adam
-- [ ] Create Celcius to Fahrenheit funtion - Zach
-- [ ] Implement Celcius to Fahrenheit funtion - Zach
-- [ ] Create pounds to kilograms funtion - Adam
-- [ ] Implement pounds to kilograms funtion - Adam
+- [ ] Create molarity funtion and decide whether to implement - Adam
+- [ ] Create Celcius to Fahrenheit funtion and decide where to implement - Zach
+- [ ] Create pounds to kilograms funtion and decide where to implement - Adam
 
 ## Week Three
 
 - [ ] Review code and check for errors - Adam
-- [ ] Fix errors - Adam
-- [ ] Clean up final code - Zach
-- [ ] Test all funtions - Zach
+- [ ] Fix any existing errors - Adam
+- [ ] clean final code to ensure readability- Zach
+- [ ] Test all funtions to ensure functionality - Zach
 - [ ] Submit project - Adam & Zach
 
 ***Created by Zach Sapp and Adam Rath***
