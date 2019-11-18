@@ -1,4 +1,5 @@
 import math
+import time
 
 a = int(input("Enter the coefficients of a: "))
 b = int(input("Enter the coefficients of b: "))
@@ -15,3 +16,5 @@ else:
     x1 = (-b+math.sqrt((b**2)-(4*(a*c))))/(2*a)
     x2 = (-b-math.sqrt((b**2)-(4*(a*c))))/(2*a)
     print ("This equation has two solutions: ", x1, " or", x2)
+
+time.sleep(15)
