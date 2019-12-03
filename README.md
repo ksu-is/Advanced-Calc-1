@@ -18,8 +18,10 @@ Displays text prompting user input, check for input validity. If inputs are vali
 - https://github.com/Warrioravi/GUI-scientific-calculator-using-python/blob/master/calculator.py
 - https://github.com/Tookmund/graphcalc/blob/master/src/graph.py
 - https://github.com/scratchmex/quadratic-solver/blob/master/quadratic-solver.py
-- 
-- 
+- https://easycodebook.com/python-pounds-to-kilograms-conversion-program/
+- https://github.com/inafis/Python-Molarity-Calculator/blob/a1a1a050a1bcafad34db608eb48aaeeedab4f826/molarityCalc
+- https://www.w3resource.com/python-exercises/math/python-math-exercise-68.php
+- https://www.pythonforbeginners.com/code-snippets-source-code/python-code-celsius-and-fahrenheit-converter/
 - 
 - 
 
