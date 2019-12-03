@@ -18,6 +18,10 @@ Displays text prompting user input, check for input validity. If inputs are vali
 - https://github.com/Warrioravi/GUI-scientific-calculator-using-python/blob/master/calculator.py
 - https://github.com/Tookmund/graphcalc/blob/master/src/graph.py
 - https://github.com/scratchmex/quadratic-solver/blob/master/quadratic-solver.py
+- 
+- 
+- 
+- 
 
 ## Roadmap:
 - [x] Review code respositories
@@ -27,10 +31,10 @@ Displays text prompting user input, check for input validity. If inputs are vali
 - [x] Add ideas to online document
 - [x] Create Github group
 - [x] Create README file
-- [ ] Find related repository for main calculator
-- [ ] find related repositories for calculator functions
-- [ ] Effectively merge code together
-- [ ] Debug code
+- [x] Find related repository for main calculator
+- [x] find related repositories for calculator functions
+- [x] Effectively merge code together
+- [x] Debug code
 - [ ] Verify that code works properly
 - [ ] Submit project
 
