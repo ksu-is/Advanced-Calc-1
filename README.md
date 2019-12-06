@@ -22,7 +22,7 @@ Displays text prompting user input, check for input validity. If inputs are vali
 - https://github.com/inafis/Python-Molarity-Calculator/blob/a1a1a050a1bcafad34db608eb48aaeeedab4f826/molarityCalc
 - https://www.w3resource.com/python-exercises/math/python-math-exercise-68.php
 - https://www.pythonforbeginners.com/code-snippets-source-code/python-code-celsius-and-fahrenheit-converter/
-- 
+- https://repl.it/@KiddingZheng/Milestone4-Python-Scientific-Calculator
 - 
 
 ## Roadmap:
