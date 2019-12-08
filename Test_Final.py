@@ -181,7 +181,7 @@ def pyth():
         print('Please select a side between a, b, c')
 
 ############MENU###############
-def print_menu():  ## Your menu design here
+def print_menu():
     print(30 * "-", "Advanced Calculator Menu", 30 * "-")
     print("1. Basic Function Calculator GUI")
     print("2. Quadratic formula")
@@ -194,7 +194,7 @@ def print_menu():  ## Your menu design here
     print("9.")
     print("10.")
     print("x. Exit")
-    print(74 * "-")
+    print(86 * "-")
 
 loop = True
 while loop:
