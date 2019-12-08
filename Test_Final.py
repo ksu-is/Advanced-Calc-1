@@ -190,10 +190,10 @@ def print_menu():  ## Your menu design here
     print("5. Trigonometric Functions")
     print("6. Square Root Calculator")
     print("7. Random Number Generator")
-    print("5. Exit")
-    print("5. Exit")
-    print("5. Exit")
-    print("5. Exit")
+    print("8.")
+    print("9.")
+    print("10.")
+    print("x. Exit")
     print(74 * "-")
 
 loop = True
