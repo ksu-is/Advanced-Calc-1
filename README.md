@@ -4,11 +4,12 @@ This program is intended to be a common function/graphing calculator with the fo
 - Standard operations (+, -, x, /)
 - Pythagorean Theorem
 - Trigonometric functions (sin, cos, tan)
-- X & Y Plotting
 - Quadratic Formula
 - Molarity
 - Conversion from Celsius to Fahrenheit
+- Conversion from Fahrenheit to Celcius
 - Conversion from pounds to kilograms
+- Conversion from kilograms to pounds
 
 ## What does the program do?
 
