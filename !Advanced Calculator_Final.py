@@ -66,12 +66,12 @@ def randNum():
           i1=int(i1)
           i2=int(i2)
           if(i1>i2):
-            print("Check of the order please, try again.")
+            print("Check the order and try again.")
             continue
           print (random.randint(i1,i2))
           break
         except:
-          print('enter the correct number please, try again.')
+          print('Invalid Input')
 
 #Trigonometric
 def trig():
@@ -82,14 +82,14 @@ def trig():
           a=180
           break
         if(i!='1')&(i!='2')&(i!='3'):
-          print('Look at the option clearly! Try again.')
+          print('invalid input! Try again.')
           continue
         i2=input(" \n1.radius\n2.degree\nChoice: ")
         if(i=="finish"):
           a=180
           break
         if(i2!='1')&(i2!='2'):
-          print('Look at the option clearly! Try again.')
+          print('Invalid input! Try again.')
           continue
         i3=input(' \nEnter the angle: ')
         if(i=="finish"):
@@ -154,7 +154,7 @@ def root():
             print('{}th root of {} is {}'.format(i1,i,i2))
             break
         except:
-          print('Enter numbers please, try again.')
+          print('Invalid Input')
 
 
 #Quadratic Formula
@@ -179,8 +179,7 @@ def quad():
 
 #Pythagorean Theorem
 def pyth():
-      print('Pythagorean theorem calculator! Calculate your triangle sides.')
-      print('Assume the sides are a, b, c and c is the hypotenuse (the side opposite the right angle')
+      print('Assume that the sides are a, b, c and c is the hypotenuse')
       formula = input('Which side (a, b, c) do you wish to calculate? side> ')
 
       if formula == 'c':
@@ -216,6 +215,7 @@ def pyth():
 ############MENU###############
 def print_menu():
     print(30 * "-", "Advanced Calculator Menu", 30 * "-")
+    print("")
     print("1. Basic Function Calculator GUI")
     print("2. Quadratic formula")
     print("3. Pythagorean Theorem")
@@ -226,13 +226,14 @@ def print_menu():
     print("8. Temperature Conversion")
     print("9. Weight Conversion")
     print("10. Exit")
+    print("")
     print(86 * "-")
 
 loop = True
 while loop:
     print_menu()
     choice = input("Enter your choice [1-10]: ")
-
+    
     if choice == '1':
         print("Menu 1 has been selected")
         open_gui()
@@ -268,6 +269,5 @@ while loop:
         print("Menu 9 has been selected")
         weight()
         time.sleep(3)
-
     elif choice == 'x' or 'exit' or '10':
         loop = False
