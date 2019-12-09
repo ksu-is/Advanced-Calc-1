@@ -3,11 +3,13 @@ import time
 from math import sqrt
 import random
 import os
-import calculator
+#import calculator
+import subprocess, sys
 #####EQUATIONS##########
 
 def open_gui():
-  os.system('calculator.py')
+#  os.system('calculator.py')
+  subprocess.run([sys.executable, "calculator.py"])
 
 #Molarity 
 def main_molarity(grams, molMass, volume):
