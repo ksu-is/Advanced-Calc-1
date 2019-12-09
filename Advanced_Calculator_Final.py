@@ -79,7 +79,7 @@ def randNum():
 def trig():
     while(True):
         import math
-        i=input(' \nChoose a Trigonometric Operation\n1.Sine\n2.Cosine\n.Tangent\nChoice: ')
+        i=input(' \nChoose a Trigonometric Operation\n1.Sine\n2.Cosine\n3.Tangent\nChoice: ')
         if(i=="finish"):
           a=180
           break
