@@ -9,5 +9,3 @@ def molarity():
     volume = float(input("Enter volume in milliliters: "))
     print("The molarity of your solution is: ", 
           format(main_molarity(grams, molMass, volume),'.2f'), " mol/L.")
-
-molarity()
