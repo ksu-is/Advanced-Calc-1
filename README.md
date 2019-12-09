@@ -25,20 +25,18 @@ Displays text prompting user input, check for input validity. If inputs are vali
 - https://repl.it/@KiddingZheng/Milestone4-Python-Scientific-Calculator
 
 ## Roadmap:
-- [x] Review code respositories
-- [x] Check validity of repositories
-- [x] Report errors with repositories
-- [x] Take notes on current repositories
-- [x] Add ideas to online document
-- [x] Create Github group
-- [x] Create README file
-- [x] Find related repository for main calculator
-- [x] find related repositories for calculator functions
-- [x] Effectively merge code together
-- [x] Debug code
-- [ ] Verify that code works properly
-- [ ] Submit project
-
-
+- [x] Review code respositories - Zach
+- [x] Check validity of repositories - Zach 
+- [x] Report errors with repositories - Adam
+- [x] Take notes on current repositories - Adam
+- [x] Add ideas to online document - Zach
+- [x] Create Github group - Adam
+- [x] Create README file - Adam
+- [x] Find related repository for main calculator - Adam
+- [x] find related repositories for calculator functions - Zach
+- [x] Effectively merge code together - Adam/Zach
+- [x] Debug code - Adam/Zach
+- [x] Verify that code works properly - Adam
+- [x] Submit project - Adam
 
 ***Created by Zach Sapp and Adam Rath***
