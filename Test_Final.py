@@ -2,26 +2,60 @@ import math
 import time
 from math import sqrt
 import random
+import os
+import calculator
 #####EQUATIONS##########
 
+def open_gui():
+  os.system('calculator.py')
+
+#Molarity 
+def main_molarity(grams, molMass, volume):
+    volume = volume/1000
+    molarity = grams/molMass/volume
+    return molarity
+
+def molarity():
+    grams = float(input("Enter grams of substance: "))
+    molMass = float(input("Enter molar mass of substance in grams/mole: "))
+    volume = float(input("Enter volume in milliliters: "))
+    print("The molarity of the solution is: ", 
+          format(main_molarity(grams, molMass, volume),'.2f'), " mol/L.")
 
 
-#Molarity needed
-############################
-########
-
-
-#Degrees c to f conversion
+#Degrees c to f or f to c conversion
 def degrees():
-    celsius=float(input("Enter degree:"))
-    fahrenheit = (celsius * 1.8) + 32
-    print('%0.1f degree Celsius is equal to %0.1f degree Fahrenheit' %(celsius,fahrenheit))
+    deg = input('Enter a for -Celcius to Fahrenheit- or b for -Fahrenheit to Celcius- : ')
+    if deg == 'a':
+      celsius=float(input("Enter degree: "))
+      fahrenheit = (celsius * 1.8) + 32
+      print('%0.1f degrees Celsius is equal to %0.1f degrees Fahrenheit' %(celsius,fahrenheit))
+    elif deg == 'b':
+      fahrenheit=float(input("enter degree: "))
+      celcius = (fahrenheit - 32) * (5 / 9)
+      print('%0.1f degrees Fahrenheit is equal to %0.1f degrees Celcius' %(fahrenheit,celcius))
+    else:
+      print('Please enter a valid input')
+      time.sleep(3)
+      degrees()
+
 
 #lbs to kgs conversion
 def weight():
-    pounds = float(input('Enter weight in Pounds(Lbs) to Convert into Kilograms:'))
-    kilo_grams = pounds * 0.453592
+  weight_input = input('Enter a for -Pounds to Kilograms- or b for -Kilograms to Pounds- : ')
+  if weight_input == "a":
+    pounds = float(input('Enter weight in Pounds(Lbs) to convert into Kilograms: '))
+    kilo_grams = pounds * 0.45359237
     print(pounds,' Pounds (Lbs) are equal to', kilo_grams,'Kilograms (Kgs)')
+  elif weight_input == "b":
+    kilo_grams = float(input('Enter weight in Kilograms to convert into Pounds(Lbs): '))
+    pounds = kilo_grams / 0.45359237
+    print(kilo_grams,' Kilograms (Kgs) are equal to', pounds,'Pounds (Lbs)')
+  else:
+    print('Please enter a valid input')
+    time.sleep(3)
+    weight()
+
 
 #Random Number
 def randNum():
@@ -142,7 +176,6 @@ def quad():
         x2 = (-b-math.sqrt((b**2)-(4*(a*c))))/(2*a)
         print ("This equation has two solutions: ", x1, " or", x2)
 
-    time.sleep(5)
 
 #Pythagorean Theorem
 def pyth():
@@ -190,38 +223,51 @@ def print_menu():
     print("5. Trigonometric Functions")
     print("6. Square Root Calculator")
     print("7. Random Number Generator")
-    print("8.")
-    print("9.")
-    print("10.")
-    print("x. Exit")
+    print("8. Temperature Conversion")
+    print("9. Weight Conversion")
+    print("10. Exit")
     print(86 * "-")
 
 loop = True
 while loop:
     print_menu()
-    choice = input("Enter your choice [1-x]: ")
+    choice = input("Enter your choice [1-10]: ")
 
     if choice == '1':
         print("Menu 1 has been selected")
-        quad()
+        open_gui()
     elif choice == '2':
         print("Menu 2 has been selected")
         quad()
+        time.sleep(3)
     elif choice == '3':
         print("Menu 3 has been selected")
         pyth()
+        time.sleep(3)
     elif choice == '4':
         print("Menu 4 has been selected")
-        #mol()
+        molarity()
+        time.sleep(3)
     elif choice == '5':
         print("Menu 5 has been selected")
         trig()
+        time.sleep(3)
     elif choice == '6':
         print("Menu 6 has been selected")
         root()
+        time.sleep(3)
     elif choice == '7':
         print("Menu 7 has been selected")
         randNum()
+        time.sleep(3)
+    elif choice == '8':
+        print("Menu 8 has been selected")
+        degrees()
+        time.sleep(3)
+    elif choice == '9':
+        print("Menu 9 has been selected")
+        weight()
+        time.sleep(3)
 
-    elif choice == 'x' or 'exit':
+    elif choice == 'x' or 'exit' or '10':
         loop = False

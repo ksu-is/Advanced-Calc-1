@@ -12,7 +12,7 @@ class calculate():
 
         self.root = Tk()
         self.root.title("Calculator")
-        self.root.geometry("480x300")
+        self.root.geometry("350x250")
 
         self.resultwindow = Entry(self.root)
         self.resultwindow.grid(row=0,column=0,columnspan=6)
@@ -20,35 +20,17 @@ class calculate():
         self.resultwindow.focus_set()  # Sets focus on the input text area
 
         # Buttons
-        self.button1 = Button(self.root, text="Pythag", width=6, command=lambda:self.ins('()+()=()'))
-        self.button1.grid(row=1,column=6, padx=3, pady=3)
-        self.button1.config(font=("Arial", 18))
-
-        def create_window():
-            tk.Toplevel()
-            
-        def UploadAction(event=None):
-            filename = filedialog.askopenfilename()
-
-        self.button1 = Button(self.root, text="Quadratic", width=6, command=create_window)
-        self.button1.grid(row=2,column=6, padx=3, pady=3)
-        self.button1.config(font=("Arial", 18))
-
-
-        self.button1 = Button(self.root, text="Graph", width=5, command=lambda:self.ins('graph'))
-        self.button1.grid(row=1,column=5, padx=3, pady=3)
-        self.button1.config(font=("Arial", 18))
         
         self.button1 = Button(self.root, text="Sin", width=3, command=lambda:self.ins('sin'))
-        self.button1.grid(row=2,column=5, padx=3, pady=3)
+        self.button1.grid(row=1,column=5, padx=3, pady=3)
         self.button1.config(font=("Arial", 18))
 
         self.button1 = Button(self.root, text="Cos", width=3, command=lambda:self.ins('cos'))
-        self.button1.grid(row=3,column=5, padx=3, pady=3)
+        self.button1.grid(row=2,column=5, padx=3, pady=3)
         self.button1.config(font=("Arial", 18))
 
         self.button1 = Button(self.root, text="Tan", width=3, command=lambda:self.ins('tan'))
-        self.button1.grid(row=4,column=5, padx=3, pady=3)
+        self.button1.grid(row=3,column=5, padx=3, pady=3)
         self.button1.config(font=("Arial", 18))
 
         self.button1 = Button(self.root, text="1", width=3, command=lambda:self.ins('1'))
@@ -102,7 +84,7 @@ class calculate():
         # Operations Buttons
 
         self.buttonplus = Button(self.root, text="^", width=3, command=lambda:self.ins('^'))
-        self.buttonplus.grid(row=5, column=0, padx=3, pady=3)
+        self.buttonplus.grid(row=4, column=5, padx=3, pady=3)
         self.buttonplus.config(font=("Arial", 18))
 
         self.buttonplus = Button(self.root, text="+", width=3, command=lambda:self.ins('+'))
